@@ -2,7 +2,7 @@
 GME Finance Scenario Simulator
 A decision tool for modeling financial and operational impacts
 of Graduate Medical Education trainee movements and affiliation scenarios.
-Built by Per Nilsson | Director, Accreditation & Strategic Planning
+Built by Per Ram Paragi | Director, Accreditation & Strategic Planning
 """
 
 import streamlit as st
@@ -874,6 +874,6 @@ from datetime import datetime
 st.markdown(f"""
 <div class="dashboard-footer">
     GME Finance Scenario Simulator  ·  Demonstration with synthetic parameters<br>
-    Built by Per Nilsson  ·  Director, Accreditation & Strategic Planning  ·  {datetime.now().year}
+    Built by Per Ram Paragi  ·  Director, Accreditation & Strategic Planning  ·  {datetime.now().year}
 </div>
 """, unsafe_allow_html=True)
